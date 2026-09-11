@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bitora — Todo sobre tecnología, en un solo lugar</title>
+    <meta
+      name="description"
+      content="Noticias de tecnología explicadas con claridad. Descubre las novedades de Apple, Tesla, inteligencia artificial y gaming en Bitora."
+    />
+    <meta name="theme-color" content="#050713" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/theme.css" />
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body class="home">
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#inicio" aria-label="Bitora, inicio"
+          ><img src="assets/logo.svg" alt="" width="53" height="49" />Bitora</a
+        >
+        <nav class="site-nav" id="main-nav" aria-label="Navegación principal">
+          <a class="active" aria-current="location" href="#inicio">Inicio</a
+          ><a href="#noticias">Noticias</a><a href="#reviews">Reviews</a
+          ><a href="#ia">IA</a><a href="#gaming">Gaming</a
+          ><a href="#contacto">Contacto</a>
+        </nav>
+        <a class="header-search" href="#noticias" aria-label="Buscar noticias"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5" />
+            <path d="m16 16 5 5" /></svg
+        ></a>
+        <button
+          class="menu-toggle"
+          aria-controls="main-nav"
+          aria-expanded="false"
+        >
+          Menú
+        </button>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="hero-section" id="inicio" aria-labelledby="welcome-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="wrap hero-layout">
+          <div class="hero-text">
+            <p class="hero-kicker">Noticias, ideas y descubrimientos</p>
+            <h1 id="welcome-title">
+              La tecnología cambia.<br />Entiéndela con Bitora.
+            </h1>
+            <p class="hero-slogan">Todo sobre tecnología, en un solo lugar</p>
+            <p class="hero-description">
+              Las novedades de tus marcas favoritas, la inteligencia artificial
+              y los videojuegos. Te contamos qué hay de nuevo y por qué importa.
+            </p>
+            <a class="button" href="#noticias">Explorar noticias</a
+            ><a class="hero-about" href="#sobre-bitora">Conoce Bitora</a>
+          </div>
+          <div
+            class="hero-preview"
+            aria-label="Una vista de las noticias de Bitora"
+          >
+            <div class="preview-phone phone-back">
+              <span class="phone-side side-volume" aria-hidden="true"></span
+              ><span class="phone-side side-power" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <div class="phone-island" aria-hidden="true"></div>
+                <div class="phone-bar">
+                  <img
+                    src="assets/logo.svg"
+                    alt=""
+                    width="22"
+                    height="22"
+                  /><span>Bitora</span>
+                </div>
+                <img
+                  class="phone-photo"
+                  src="assets/images/gaming.jpg"
+                  alt="Jugador en un evento de videojuegos"
+                  width="1200"
+                  height="800"
+                />
+                <div class="phone-copy">
+                  <span>Gaming</span>
+                  <h2>Lo nuevo de NVIDIA</h2>
+                  <p>La inteligencia artificial también está en tus juegos.</p>
+                  <a href="noticias/nvidia.html">Leer noticia</a>
+                </div>
+                <div class="phone-home" aria-hidden="true"></div>
+              </div>
+            </div>
+            <div class="preview-phone phone-front">
+              <span class="phone-side side-volume" aria-hidden="true"></span
+              ><span class="phone-side side-power" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <div class="phone-island" aria-hidden="true"></div>
+                <div class="phone-bar">
+                  <img
+                    src="assets/logo.svg"
+                    alt=""
+                    width="22"
+                    height="22"
+                  /><span>Bitora</span>
+                </div>
+                <img
+                  class="phone-photo"
+                  src="assets/images/apple.png"
+                  alt="Composición ilustrativa de teléfonos iPhone"
+                  width="1600"
+                  height="1600"
+                  fetchpriority="high"
+                />
+                <div class="phone-copy">
+                  <span>Lanzamientos</span>
+                  <h2>Una nueva generación de iPhone</h2>
+                  <p>iPhone 18 Pro, Duo y las novedades de Apple.</p>
+                  <a href="noticias/apple.html">Leer noticia</a>
+                </div>
+                <div class="phone-home" aria-hidden="true"></div>
+              </div>
+            </div>
+            <p class="preview-caption">Fotografías ilustrativas</p>
+          </div>
+        </div>
+      </section>
+      <div class="topic-intro wrap">
+        <a href="#noticias"
+          ><span class="topic-symbol" aria-hidden="true">↗</span>
+          <div>
+            <strong>Nuevos lanzamientos</strong>
+            <p>Qué llega al mundo de la tecnología.</p>
+          </div></a
+        ><a href="#ia"
+          ><span class="topic-symbol" aria-hidden="true">✳</span>
+          <div>
+            <strong>Inteligencia artificial</strong>
+            <p>Ideas complejas, explicadas con claridad.</p>
+          </div></a
+        ><a href="#gaming"
+          ><span class="topic-symbol" aria-hidden="true">＋</span>
+          <div>
+            <strong>Videojuegos</strong>
+            <p>Las novedades detrás de cada partida.</p>
+          </div></a
+        >
+      </div>
+      <section class="section" id="noticias" aria-labelledby="news-title">
+        <div class="section-head">
+          <div>
+            <h2 id="news-title">Últimas noticias</h2>
+            <p>Una selección de las novedades de septiembre de 2026.</p>
+          </div>
+          <span
+            class="small-count"
+            id="news-count"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+            >3 noticias</span
+          >
+        </div>
+        <div class="news-controls">
+          <div
+            class="filters"
+            role="group"
+            aria-label="Filtrar noticias por temática"
+          >
+            <button class="filter" data-filter="all" aria-pressed="true">
+              Todas</button
+            ><button
+              class="filter"
+              data-filter="lanzamientos"
+              aria-pressed="false"
+            >
+              Lanzamientos</button
+            ><button class="filter" data-filter="ia" aria-pressed="false">
+              Inteligencia artificial</button
+            ><button class="filter" data-filter="gaming" aria-pressed="false">
+              Gaming
+            </button>
+          </div>
+          <div class="search-box">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" />
+              <path d="m16 16 5 5" /></svg
+            ><label class="sr-only" for="news-search">Buscar noticias</label
+            ><input
+              type="search"
+              id="news-search"
+              placeholder="Busca Apple, Tesla, NVIDIA…"
+              autocomplete="off"
+            /><button
+              id="clear-query"
+              class="clear-query"
+              type="button"
+              aria-label="Borrar búsqueda"
+              hidden
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m7 7 10 10M17 7 7 17" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <noscript
+          ><p>
+            Para usar el buscador y los filtros, activa JavaScript. Puedes leer
+            las tres noticias aquí.
+          </p></noscript
+        >
+        <div class="news-grid">
+          <article
+            class="news-card"
+            data-news-card
+            data-categories="lanzamientos ia"
+            data-keywords="apple iphone 18 pro duo airpods 5 apple watch series 12 ultra 4 celulares computadores inteligencia artificial lanzamiento"
+          >
+            <a
+              class="card-image"
+              href="noticias/apple.html"
+              aria-label="Leer noticia: nuevos lanzamientos de Apple"
+              ><img
+                src="assets/images/apple.png"
+                alt="Composición ilustrativa de teléfonos iPhone"
+                loading="lazy"
+                width="1600"
+                height="1600"
+              /><span class="tag">Lanzamientos</span
+              ><span class="image-note">Imagen ilustrativa</span></a
+            >
+            <div>
+              <div class="meta">
+                <time datetime="2026-09-09">9 sep 2026</time
+                ><span>3 min de lectura</span>
+              </div>
+              <h3>
+                <a href="noticias/apple.html"
+                  >iPhone 18 Pro, Duo y los nuevos accesorios de Apple</a
+                >
+              </h3>
+              <p>
+                Del iPhone 18 Pro al iPhone Duo: celulares, audífonos y relojes
+                que renuevan su catálogo.
+              </p>
+              <div class="card-bottom">
+                <a class="text-link" href="noticias/apple.html"
+                  >Leer noticia <span aria-hidden="true">↗</span></a
+                ><span class="small-count">Apple</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="news-card"
+            data-news-card
+            data-categories="ia"
+            data-keywords="tesla cybercab robotaxi robotaxis austin estados unidos innovación inteligencia artificial transporte"
+          >
+            <a
+              class="card-image"
+              href="noticias/tesla.html"
+              aria-label="Leer noticia: Cybercab de Tesla en Austin"
+              ><img
+                src="assets/images/tesla.jpg"
+                alt="Tesla blanco junto a unas montañas, imagen ilustrativa distinta del Cybercab"
+                loading="lazy"
+                width="1200"
+                height="800"
+              /><span class="tag purple">Innovación</span
+              ><span class="image-note">Imagen ilustrativa</span></a
+            >
+            <div>
+              <div class="meta">
+                <time datetime="2026-09-04">4 sep 2026</time
+                ><span>3 min de lectura</span>
+              </div>
+              <h3>
+                <a href="noticias/tesla.html"
+                  >Tesla lleva el Cybercab a las calles de Austin</a
+                >
+              </h3>
+              <p>
+                El transporte autónomo suma un nuevo capítulo en Estados Unidos,
+                con preguntas aún por resolver.
+              </p>
+              <div class="card-bottom">
+                <a class="text-link" href="noticias/tesla.html"
+                  >Leer noticia <span aria-hidden="true">↗</span></a
+                ><span class="small-count">Movilidad</span>
+              </div>
+            </div>
+          </article>
+          <article
+            class="news-card"
+            data-news-card
+            data-categories="gaming ia lanzamientos"
+            data-keywords="nvidia dlss pubg videojuegos gaming inteligencia artificial computadores gráficos lanzamiento"
+          >
+            <a
+              class="card-image"
+              href="noticias/nvidia.html"
+              aria-label="Leer noticia: NVIDIA DLSS y videojuegos"
+              ><img
+                src="assets/images/gaming.jpg"
+                alt="Jugador en un evento de videojuegos, fotografía ilustrativa"
+                loading="lazy"
+                width="1200"
+                height="800"
+              /><span class="tag green">Gaming</span
+              ><span class="image-note">Imagen ilustrativa</span></a
+            >
+            <div>
+              <div class="meta">
+                <time datetime="2026-09-09">9 sep 2026</time
+                ><span>2 min de lectura</span>
+              </div>
+              <h3>
+                <a href="noticias/nvidia.html"
+                  >NVIDIA anuncia nuevas mejoras para videojuegos</a
+                >
+              </h3>
+              <p>
+                NVIDIA anuncia mejoras gráficas y la llegada de DLSS Super
+                Resolution a PUBG.
+              </p>
+              <div class="card-bottom">
+                <a class="text-link" href="noticias/nvidia.html"
+                  >Leer noticia <span aria-hidden="true">↗</span></a
+                ><span class="small-count">NVIDIA</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="empty" id="no-results" hidden>
+          <h3>No encontramos noticias con esa búsqueda</h3>
+          <p>
+            Prueba con Apple, Tesla o NVIDIA, o vuelve a ver todas las noticias.
+          </p>
+          <button class="button" id="clear-search">Limpiar búsqueda</button>
+        </div>
+      </section>
+      <section class="section" id="reviews" aria-labelledby="review-title">
+        <div class="review-layout">
+          <div class="review-intro">
+            <span class="review-label"
+              ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"
+                />
+              </svg>
+              Reviews / Primera mirada</span
+            >
+            <h2 id="review-title">iPhone 18 Pro o iPhone Duo: ¿qué cambia?</h2>
+            <p>
+              El formato conocido del iPhone 18 Pro frente a la pantalla
+              plegable del Duo. Una comparación para entender qué propone cada
+              uno.
+            </p>
+            <a class="text-link" href="noticias/apple.html#comparacion"
+              >Explorar la comparación
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14m-5-5 5 5-5 5" /></svg
+            ></a>
+          </div>
+          <div class="comparison">
+            <div class="comparison-head">
+              <div class="comparison-product">
+                <div class="device" aria-hidden="true"></div>
+                <h3>iPhone 18 Pro</h3>
+                <p>Formato tradicional</p>
+              </div>
+              <div class="comparison-product">
+                <div class="device duo" aria-hidden="true"></div>
+                <h3>iPhone Duo</h3>
+                <p>Formato plegable</p>
+              </div>
+            </div>
+            <table>
+              <caption class="sr-only">
+                Comparación de características anunciadas
+              </caption>
+              <thead class="sr-only">
+                <tr>
+                  <th scope="col">Característica</th>
+                  <th scope="col">iPhone 18 Pro</th>
+                  <th scope="col">iPhone Duo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Diseño</th>
+                  <td>Una pantalla principal</td>
+                  <td>Pantalla exterior e interior</td>
+                </tr>
+                <tr>
+                  <th scope="row">Enfoque</th>
+                  <td>Experiencia Pro convencional</td>
+                  <td>Más espacio al desplegarlo</td>
+                </tr>
+                <tr>
+                  <th scope="row">Para explorar</th>
+                  <td>Uso cotidiano y fotografía</td>
+                  <td>Lectura y multitarea</td>
+                </tr>
+              </tbody>
+            </table>
+            <small
+              >Análisis de especificaciones anunciadas. Sin pruebas de uso.
+              Dibujos esquemáticos.</small
+            >
+          </div>
+        </div>
+      </section>
+      <div class="feature-bands">
+        <section class="feature-band" id="ia" aria-labelledby="ai-title">
+          <div class="band-photo">
+            <img
+              src="assets/images/tesla.jpg"
+              alt="Un Tesla en una carretera; imagen ilustrativa, no es un Cybercab"
+              loading="lazy"
+              width="1200"
+              height="800"
+            /><span>Imagen ilustrativa</span>
+          </div>
+          <div class="band-copy">
+            <p class="band-label">Inteligencia artificial</p>
+            <h2 id="ai-title">De la pantalla<br />a la vida real.</h2>
+            <p>
+              La IA también se utiliza para interpretar el entorno y automatizar
+              tareas. Los robotaxis de Tesla son una de sus aplicaciones más
+              comentadas.
+            </p>
+            <a class="button secondary" href="noticias/tesla.html"
+              >Conocer el Cybercab</a
+            ><a class="band-more" href="noticias/apple.html"
+              >También: inteligencia artificial en el iPhone</a
+            >
+          </div>
+        </section>
+        <section
+          class="feature-band gaming-band"
+          id="gaming"
+          aria-labelledby="gaming-title"
+        >
+          <div class="band-copy">
+            <p class="band-label">Gaming</p>
+            <h2 id="gaming-title">
+              Lo que hay detrás<br />de una buena partida.
+            </h2>
+            <p>
+              Más allá de los lanzamientos, las tecnologías gráficas cambian
+              cómo jugamos. Te explicamos qué es DLSS y qué novedades llegan a
+              PUBG.
+            </p>
+            <a class="text-link" href="noticias/nvidia.html"
+              >Leer la noticia de NVIDIA</a
+            >
+            <div class="band-topics">
+              <a href="noticias/nvidia.html#dlss">Qué es DLSS</a
+              ><a href="noticias/nvidia.html#pubg">Novedades de PUBG</a>
+            </div>
+          </div>
+          <div class="band-photo">
+            <img
+              src="assets/images/gaming.jpg"
+              alt="Jugador con audífonos en un evento de videojuegos, fotografía ilustrativa"
+              loading="lazy"
+              width="1200"
+              height="800"
+            /><span>Imagen ilustrativa</span>
+          </div>
+        </section>
+      </div>
+      <section class="section" id="sobre-bitora" aria-labelledby="about-title">
+        <h2 class="about-heading" id="about-title">Sobre Bitora</h2>
+        <div class="about">
+          <div class="about-brand">
+            <a
+              class="brand"
+              href="#inicio"
+              aria-label="Bitora, volver al inicio"
+              ><img
+                src="assets/logo.svg"
+                alt=""
+                width="65"
+                height="60"
+              />Bitora</a
+            >
+            <p>Noticias de tecnología para personas curiosas.</p>
+          </div>
+          <div>
+            <h3>Nuestra misión</h3>
+            <p>
+              Conectar a las personas con el mundo de la tecnología mediante
+              noticias, análisis y contenido innovador, explicado de forma
+              sencilla, dinámica y accesible.
+            </p>
+          </div>
+          <div>
+            <h3>Nuestra visión</h3>
+            <p>
+              Convertirnos en una de las plataformas digitales más reconocidas
+              por informar y conectar a las personas con las tecnologías que
+              están transformando el presente y construyendo el futuro.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contacto" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title">¿Hablamos de tecnología?</h2>
+          <p>Contacto de Bitora</p>
+        </div>
+        <div class="contact-info">
+          <medium>Juan Diego Torres Cortes</medium>
+          <strong>juan.torrescor@cun.edu.co</strong>
+        </div>
+        <div class="contact-info">
+          <medium>Elkin Romario Castañeda</medium>
+          <strong>elkin.castaneda@cun.edu.co</strong>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span>© 2026 Bitora. La tecnología, más cerca.</span>
+        <div class="footer-links">
+          <a href="#sobre-bitora">Sobre Bitora</a
+          ><a href="creditos.html">Fuentes y créditos</a
+          ><a href="#inicio">Volver arriba ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
